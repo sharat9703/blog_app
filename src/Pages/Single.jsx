@@ -4,6 +4,7 @@ import Img2 from "../assets/randPerson.jpg";
 import Edit from "../assets/edit.png";
 import Delete from "../assets/delete.png";
 import { Link } from "react-router-dom";
+import Menu from "../Components/Menu";
 const Single = () => {
   return (
     <div className="single">
@@ -70,7 +71,7 @@ const Single = () => {
           </p>
         </p>
       </div>
-      <div className="menu">m</div>
+      <Menu/>
     </div>
   );
 };
