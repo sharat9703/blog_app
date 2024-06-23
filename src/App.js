@@ -2,13 +2,13 @@ import React from "react";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 
 import "./styles.scss";
-import Navbar from "./Components/Navbar.jsx";
-import Footer from "./Components/Footer.jsx";
-import Register from "./Pages/Register.jsx";
-import Login from "./Pages/Login.jsx";
-import Single from "./Pages/Single.jsx";
-import Write from "./Pages/Write.jsx";
-import Home from "./Pages/Home.jsx";
+import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
+import Register from "./pages/Register.jsx";
+import Login from "./pages/Login.jsx";
+import Single from "./pages/Single.jsx";
+import Write from "./pages/Write.jsx";
+import Home from "./pages/Home.jsx";
 
 const LayOut = () => {
   return (

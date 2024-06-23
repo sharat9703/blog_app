@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className='footer'>
         <img src={Logo} alt="logo" />
-        <span>MERN APP &copy; <b>Sharat's Lab</b></span>
+        <span>A FullStack APP &copy; <b>Sharat's Lab</b></span>
     </footer>
   )
 }
